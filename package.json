@@ -23,6 +23,13 @@
     "morgan": "^1.10.0",
     "session": "^0.1.0"
   },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "delay": 500,
+    "env": {
+      "PORT": 1001
+    }
+  },
   "devDependencies": {
     "nodemon": "^2.0.18"
   }
